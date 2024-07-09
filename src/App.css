@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color:rgba(13, 252, 160, 0.589);
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+.child1{
+  border: 1px solid black;
+  box-shadow: 20px 20px 30px black;
+  border-radius: 20px;
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  padding-left: 40px;
+  display: block;
+  /* padding-left: 500px; */
+  margin-top: 30px;
+    
+}
+h4{
+  margin-top: 20px;
+  font-size: xx-large;
+  color: blue;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+}
+#email{
+  margin-top: 20px;
+  font-size: 20px;
+}
+#input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  color: black;
+  /* font-weight: bold; */
+  padding-left: 10px;
+  font-size: 15px;
+  background-color: rgba(128, 128, 128, 0.445);
+  cursor: pointer;
+  transition: all;
+  border: 1px solid green;
+}
+#input:hover {
+  color: black;
+  background-color: grey;
+  font-weight: bold;
+}
+input::placeholder{
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+#password{
+  margin-top: 20px;
+  font-size: 20px;
+}
+#btn1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(248, 77, 20);
+  border-radius: 10px;
+}
+#btn2{
+  color: white;
+  background-color: rgb(248, 77, 20);
+  height: 50px;
+  width: 160px;
+  font-size: 15px;
+  border-radius: 15px;
+     
+}
+#forbtn2{
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-top: 20px; 
+}
+@media  only screen and (max-width:600px) {
+  /* body{
+    background-color: brown;
+
+  } */
+#input{
+  height:30px ;
+  width: 200px;
+}
+input::placeholder{
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: black; 
+}
+#btn1{
+  width: 212px;
+  height: 30px;
+  font-size: 15px; 
+}
+h4{
+  margin-top:10px;
+  margin-right: 27px;  
+}
+.child1{
+  max-width: 235px;    
+}
+#email{
+  margin-top: 20px;
+  font-size: 17px;
+}
+#password{
+  margin-top: 20px;
+  font-size: 17px;
+}
+#btn2{
+  color: white;
+  background-color: rgb(248, 77, 20);
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 15px;
+     
+}
+h1{
+  font-size: 25px; 
+}
+}
